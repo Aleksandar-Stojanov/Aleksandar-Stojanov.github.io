@@ -1,0 +1,399 @@
+body {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: url("iliev winery/Screen-Shot-2021-01-21-at-12.02.18-PM.png");
+    font-family: "DejaVu Sans", sans-serif;
+}
+#main{
+    max-width: 72%;
+    background: rgba(0, 0, 0, 0.48);
+    color: #c9c9c9;
+    height: 100%;
+
+}
+#main img{
+    width: 100%;
+}
+#menu {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+    float: left;
+    font-family: "Bookman Old Style",sans-serif;
+    clear: both;
+}
+#menuright{
+    width: 65%;
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 13px;
+}
+#menuright div a{
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+
+}
+#menuright div p{
+    margin: 0;
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+#menuright div {
+   max-width: 141px;
+
+}
+#menuright div a:hover{
+    opacity: 70%;
+}
+#menuright div p:hover{
+    opacity: 70%;
+}
+#logo a{
+    float: left;
+    padding: 60px;
+    background: url("iliev winery/anotherlogo.png") no-repeat;
+    background-size: cover;
+    margin-left: 30px;
+}
+#menuright #here{
+    background: #375ba6;
+}
+#here2{
+    background: #375ba6;
+    border-radius: 16px;
+}
+.divinmenu{
+    min-width: 141px;
+    height: 38px;
+    background: goldenrod;
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+}
+#maincenter div{
+    margin: 20px;
+}
+#maincenter #footer{
+    margin: 0;
+}
+#footer img{
+    width: 20%;
+}
+.text{
+    width: 70%;
+    line-height: 25px;
+    text-align: justify;
+}
+.text a{
+    color: #c9c9c9;
+}
+.fl{
+    float: left;
+    clear: left;
+}
+.fr{
+    float: right;
+    clear: right;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#footer{
+    color: #9c9c9c;
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#footer div{
+
+}
+
+#footer div img{
+    width: 100%;
+}
+#footer ul{
+    list-style: none;
+}
+#footer ul li a{
+    text-decoration: none;
+    color: #9d9d9d;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+#footer ul li p{
+    text-decoration: none;
+    color: #9d9d9d;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+
+}
+#smallmenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#smallmenu li{
+    margin-bottom: 10px;
+}
+#footer ul li a:hover{
+    opacity: 70%;
+}
+#footer ul li p:hover{
+    opacity: 70%;
+}
+#footer ul li{
+    margin: 15px;
+}
+#footer ul li .socialmedia{
+    width: 40px;
+    height: 40px;
+}
+#button img{
+    margin: 15px;
+    width: 45px;
+    height: 45px;
+}
+
+#button img:hover{
+    opacity: 70%;
+}
+
+#footer img{
+    max-width: 250px;
+}
+.winei {
+    width: 43%;
+    height: auto;
+
+}
+.winei img{border-radius: 6px;}
+.winet{
+    text-align: justify;
+    width: 43%;
+    height: 306px;
+    line-height: 30px;
+    font-size: 17px;
+    word-spacing: 5px;
+    margin-top: -10px;
+
+}
+#mainmain div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+div > h3{
+    border-bottom: 1px white solid;
+    font-size: 22px;
+}
+.w > h3{
+    color: #ffeb46;
+
+}
+.r h3{
+    color: darkred;
+}
+.roze h3{
+    color: #c55c6e;
+}
+#different{
+    height: 345px;
+}
+
+
+#nagradicentar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#nagradicentar div{
+    width: 88%;
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+#nagradicentar div a{
+    color: #c9c9c9;
+}
+#nagradicentar div ul{
+    list-style: none;
+}
+#nagradicentar div ul li{
+    line-height: 40px;
+}
+
+#locationmain{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#locationmain div{
+    width: 82%;
+    margin: 30px;
+    font-size: 18px;
+}
+#images{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.locationimg{
+    margin: 20px;
+    width: 46%;
+}
+.locationimg img{
+    border-radius: 8px;
+}
+iframe{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.pin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pin div{
+    width: 40px;
+    height: auto;
+}
+
+.dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: goldenrod;
+    width: 141px;
+    max-width: 141px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 16px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+#footerlist{
+    line-height: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+#footerlist div a{
+    text-align: center;
+}
+#myDropdown2{
+    text-align: center;
+}
+#myDropdown2 a{
+    margin-top: 5px;
+}
+
+.dropbtn2 {
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown2{
+    position: relative;
+
+    display: inline-block;
+    text-align: center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content2 {
+    display: none;
+
+    z-index: 1;
+    border-radius: 16px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content2 a {
+    padding: 6px 0;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+    background: #ffffff;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+#footer div{
+margin: 0;
+}
+
+#footer ul li #myDropdown2 a {
+    color: white;
+    padding-left:  5px;
+    padding-right: 5px;
+    background: darkgray;
+}
+#footer ul li:hover{
+    opacity: 70%;
+}
