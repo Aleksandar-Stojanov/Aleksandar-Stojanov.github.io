@@ -22,14 +22,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 120px;
+    height: 110px;
     width: 100%;
     float: left;
     font-family: "Bookman Old Style",sans-serif;
     clear: both;
 }
 #menuright{
-    width: 65%;
+    width: 100%;
     float: right;
     display: flex;
     justify-content: space-evenly;
@@ -125,9 +125,6 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-#footer div{
-
 }
 
 #footer div img{
@@ -267,7 +264,7 @@ div > h3{
 }
 .locationimg{
     margin: 20px;
-    width: 46%;
+    width: 40%;
 }
 .locationimg img{
     border-radius: 8px;
